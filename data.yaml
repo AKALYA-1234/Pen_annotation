@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['PEN']
+
+roboflow:
+  workspace: ai-ubx9j
+  project: pen-pfrzk-5njxf
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-ubx9j/pen-pfrzk-5njxf/dataset/1
