@@ -19,17 +19,29 @@ Outputs bounding boxes with confidence scores.
 
 Pen_annotation/
  ├── train/                # training dataset (images + labels)
+ 
  ├── val/                  # validation dataset (images + labels)
+ 
  ├── test/                 # test dataset (images + labels)
+ 
  ├── runs/                 # YOLOv8 training results (weights saved here)
+ 
  │    └── detect/
+ 
  │         └── train/
+ 
  │              └── weights/
+ 
  │                   ├── best.pt   # trained model (use this for prediction)
+ 
  │                   └── last.pt
+ 
  ├── dataset.yaml          # YOLOv8 dataset configuration
+ 
  ├── app.py                # Streamlit frontend
+ 
  ├── yolov8n.pt            # Pretrained YOLOv8 model (base model)
+ 
  └── README.md             # Project documentation
 
 
